@@ -1,0 +1,440 @@
+body {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Меню ---------------------------------------*/
+nav {
+	background-color: rgb(255, 207, 0);
+}
+
+nav ul a {
+	color: black;
+}
+
+.brand-logo{
+	margin-top: 5px;
+}
+
+
+/* Назва поточної сторінки -------------------*/
+.title {
+	color: rgb(255, 255, 255);
+    background: rgb(0, 109, 183);
+    padding: 20px;
+}
+
+.title h1 {
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+}
+
+
+/* Підвал сайту ------------------------------*/
+.page-footer{
+	color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+/*--------Сторінка Каталог--------*/
+
+.card-wrap {
+	max-width: 250px;
+	border: 1px solid #eaeaea;
+	padding: 12px;
+}
+
+.card-wrap img {
+	display: block;
+	width: 100%;
+	transition: all 1s ease-out;
+}
+
+.card-wrap img:hover{
+	transition: all 1s ease-out;
+	transform: scale(1.1);
+}
+
+.card-wrap h2 {
+	font-size: 24px;
+}
+.card-wrap h2:hover {
+	color: rgb(0, 109, 183);
+}
+
+.card-wrap span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-buy {
+	border: 1px solid rgb(253, 128, 36);
+	background-color: rgb(253, 128, 36);
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.button-buy:hover {
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.cards-container{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0;
+}
+
+.item-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.item-slider-container{
+	width: 35%;
+	padding: 30px;
+}
+
+.item-description{
+	width: 30%;
+	padding: 30px;
+	background: rgb(238, 238, 238);
+}
+
+.item-slider-container .slick-prev:before, 
+.item-slider-container .slick-next:before{
+	color: red;
+	font-size: 36px;
+}
+.item-slider-container .slick-prev {
+    left: -65px;
+}
+.item-slider-container .slick-next {
+    right: -50px;
+}
+
+.item-description span {
+	font-size: 24px;
+    font-weight: bold;
+}
+
+.item-description .button-buy {
+	max-width: 200px;
+	margin: 30px auto;
+}
+.item-new {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    font-size: 20px;
+    padding: 5px;
+    background: rgb(255, 207, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.collapsible-header{
+	font-size: 18px; 
+	line-height: 2rem;
+}
+.collapsible li .material-icons{
+	font-size: 2rem; 
+}
+.collapsible li:nth-child(1) .material-icons{
+	color: #26a69a; 
+}
+.collapsible li:nth-child(2) .material-icons{
+	color: red; 
+}
+.collapsible li:nth-child(3) .material-icons{
+	color: rgb(255,140,0); 
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+.collapsible li:nth-child(2) .collapsible-body{
+	text-align: center;
+	background: aliceblue;
+}
+
+/*----------------------------------------*/
+.contacts-row{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+	/*border: 2px solid grey;*/
+}
+.contacts-img{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	/*border: 2px solid grey;*/
+}
+.contacts-info{
+	width: 30%;
+	margin: 20px;
+	padding: 25px;
+	/*border: 2px solid grey;*/
+    border-radius: 5%;
+	background-color: beige;
+	color: rgb(255, 255, 255);
+    background: rgb(0, 109, 183);
+    box-shadow: 0px 0px 34px -5px rgba(0,26,255,1);
+}
+.contacts-map{
+	width: 50%;
+	margin: 20px;
+	/*border: 2px solid grey;*/
+}
+
+.contacts-title{
+	text-align: center;
+    margin: 0 0 25px 0;
+}
+.contacts-phone{
+	display: flex;
+	margin-bottom: 20px;
+}
+.contacts-phone i, .contacts-phone span, .contacts-phone a{
+	margin-right: 10px;
+	font-size: 20px;
+	line-height: 20px;
+	color: rgb(255, 207, 0);
+}
+.contacts-phone a{
+	color: white;
+}
+
+.contacts-img img{
+	display: block;
+    width: 100%;
+    min-width: 180px;
+}
+
+
+
+/*-------------------------------------------------*/
+/* Форма для зворотного зв'язку */ 
+/*-------------------------------------------------*/
+
+.contacts-form-container{
+	background: url(../img/bg_contacts.jpg);
+	background-size: cover;
+	padding: 10px 60px 60px 60px;
+}
+.contacts-form-title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.contacts-form-container i{
+	color: rgb(0, 109, 183);
+}
+.contacts-form-container .btn{
+	background-color: rgb(0, 109, 183);
+}
+.contacts-form-container .btn:hover{
+	background-color: rgb(0, 109, 183);
+	opacity: 0.8;
+}
+
+
+/*-------------------------------------------------*/
+/* Footer. Соціальні мережі */ 
+/*-------------------------------------------------*/
+.social{
+	display: flex;
+}
+.social li{
+    margin-right: 10px;
+}
+.social li a{
+	font-size: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/sprite_social.svg);
+    background-repeat: no-repeat;
+    background-size: 405px 70px;
+    border-radius: 50%;
+}
+
+.social-1{
+	background-position: -4px -4px;
+}
+.social-2{
+	background-position: -68px -4px;
+}
+.social-3{
+	background-position: -132px -4px;
+}
+.social-4{
+	background-position: -100px -4px;
+}
+
+.social-1:hover{
+	background-position: -4px -36px;
+}
+.social-2:hover{
+	background-position: -68px -36px;
+}
+.social-3:hover{
+	background-position: -132px -36px;
+}
+.social-4:hover{
+	background-position: -100px -36px;
+}
+
+
+
+/*-------------------------------------------------*/
+/* Дізнавайся про нові акції */ 
+/*-------------------------------------------------*/
+.contacts-subscribe{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 109, 183);
+	padding: 40px;
+	color: white;
+}
+.contacts-subscribe h4{
+	margin: 20px 0;
+}
+
+.contacts-subscribe-form{
+	display: flex;
+	margin: 16px 0 0 20px;
+}
+
+.contacts-subscribe input[type=email]{
+	min-width: 250px;
+    border: 1px solid white;
+    margin: 0;
+    color: white;
+    padding: 0 15px;
+    box-shadow: white;
+}
+
+.contacts-subscribe input[type=submit]{
+	height: 47px;
+    display: block;
+    border: 1px solid red;
+    background: red;
+    box-shadow: none;
+    opacity: 0.9;
+}
+
+.contacts-subscribe input[type=submit]:hover{
+	opacity: 0.7;
+}
+
+
+/*----------------------------------------*/
+/*-----------Page About Company*----------*/
+/*----------------------------------------*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*---- Карусель товарів ----*/
+.catalog-slider .slide{
+	margin: 10px;
+	height: 250px;
+	display: flex;
+	align-items: center;
+}
+
+.catalog-slider img{
+	width: 100%;
+}
+
+/*-------------------------------------------------*/
+/* Cart */ 
+/*-------------------------------------------------*/
+#cart-close{
+	position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+#cart li{
+	position: relative;
+	/*border: 1px solid rebeccapurple;*/
+	display: flex;
+    align-items: center;
+}
+
+.delete-items{
+	margin-left: 10px;
+	padding: 4px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#cart li img{
+	margin-right: 20px;
+	max-width: 200px;
+}
+
+.cart-btn{
+	position: absolute;
+    top: 5px;
+    right: 76px;
+    background: rgb(0, 109, 183);
+}
+
+.cart-btn i{
+	background: rgb(0, 109, 183);
+}
+
+#ajax-contact-form{
+    max-width: 250px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
